@@ -1,0 +1,6 @@
+{
+  "name": "UrbanFlow Smart City OS",
+  "description": "An AI-powered Smart City Operating System with real-time multi-agent simulations, digital twin monitoring, women safety enhancements, and proposal evaluations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

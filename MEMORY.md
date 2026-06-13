@@ -1,0 +1,2 @@
+- [AI Insights Architecture](ai-insights-arch.md) — InsightsPanel + ExecSummary components + insights.ts lib added to all 13 dashboards; pattern to follow for new modules.
+- [UrbanFlow Duplicate Dir](urbanflow-dirs.md) — UrbanFlowall/ is a non-primary duplicate; primary codebase is urbanflow/ only.

@@ -1,0 +1,528 @@
+CRITICAL URBANFLOW RECOVERY + MODULE 11
+
+STOP ALL FEATURE DEVELOPMENT.
+
+Before adding any new functionality, perform a complete UrbanFlow recovery audit.
+
+Current issues:
+
+1. Login page loads.
+2. Clicking Sign In returns:
+   "NetworkError when attempting to fetch resource"
+3. Previous sessions reported:
+   "Complete UrbanFlow directory missing"
+4. Some modules/features appear to disappear when imported into new Replit profiles.
+5. Scenario Lab does not fully demonstrate input-to-outcome simulation.
+6. Platform feels crowded and not sufficiently user-friendly.
+
+================================================
+
+PHASE 1
+
+PROJECT STRUCTURE VERIFICATION
+
+Perform a complete codebase audit.
+
+Explicitly verify the existence of all major UrbanFlow directories.
+
+Required directories:
+
+client/
+server/
+shared/
+components/
+lib/
+api/
+database/
+assets/
+agents/
+scenario-engine/
+proposal-engine/
+digital-twin/
+women-safety/
+citizen-feedback/
+executive-governance/
+sustainability/
+climate-engine/
+monitoring/
+copilot/
+
+================================================
+
+IF ANY DIRECTORY IS MISSING
+
+DO NOT IGNORE IT.
+
+Create or restore it.
+
+Recover functionality from existing code.
+
+Reintegrate missing modules.
+
+Provide a report showing:
+
+Existing directories
+
+Missing directories
+
+Recovered directories
+
+Broken dependencies
+
+================================================
+
+PHASE 2
+
+LOGIN FAILURE DIAGNOSIS
+
+Current error:
+
+NetworkError when attempting to fetch resource
+
+Trace login process completely.
+
+Audit:
+
+Frontend login page
+
+Authentication API
+
+Backend server
+
+Database connection
+
+Session handling
+
+Token generation
+
+Environment variables
+
+API URLs
+
+Proxy configuration
+
+Deployment routing
+
+================================================
+
+Verify:
+
+POST /auth/login
+
+POST /login
+
+GET /auth/me
+
+Session validation
+
+JWT validation
+
+Role validation
+
+================================================
+
+Identify exact root cause.
+
+Possible causes:
+
+Wrong API endpoint
+
+Missing backend
+
+Backend offline
+
+CORS issue
+
+Invalid environment variables
+
+Broken fetch request
+
+Authentication middleware failure
+
+Database connection issue
+
+================================================
+
+FIX THE ISSUE.
+
+Do not stop until:
+
+[admin@urbanflow.in](mailto:admin@urbanflow.in)
+
+[planner@delhi.gov.in](mailto:planner@delhi.gov.in)
+
+[analyst@urbanflow.in](mailto:analyst@urbanflow.in)
+
+all successfully authenticate.
+
+================================================
+
+PHASE 3
+
+FRONTEND-BACKEND COMMUNICATION
+
+Audit every API call.
+
+Verify:
+
+Dashboard APIs
+
+Scenario APIs
+
+Agent APIs
+
+Proposal APIs
+
+Women Safety APIs
+
+Citizen Feedback APIs
+
+Monitoring APIs
+
+Budget APIs
+
+Infrastructure APIs
+
+================================================
+
+Ensure:
+
+No failed fetch requests.
+
+No 404 routes.
+
+No 500 responses.
+
+No CORS issues.
+
+No proxy issues.
+
+================================================
+
+PHASE 4
+
+SCENARIO LAB RECOVERY
+
+Current issue:
+
+Scenario Lab is not behaving as intended.
+
+Users must clearly see:
+
+INPUT → PROCESSING → AGENT ANALYSIS → OUTCOME
+
+================================================
+
+Make every parameter editable.
+
+Examples:
+
+Traffic Congestion
+
+Road Closures
+
+Public Transport Usage
+
+AQI
+
+Industrial Activity
+
+Construction Activity
+
+CCTV Coverage
+
+Street Lighting
+
+Crime Rate
+
+Women Safety Metrics
+
+Complaint Volume
+
+Citizen Satisfaction
+
+Budget
+
+Green Cover
+
+Water Quality
+
+================================================
+
+Changing ANY parameter must immediately update:
+
+Traffic Agent
+
+AQI Agent
+
+Safety Agent
+
+Women Safety Agent
+
+Citizen Agent
+
+Budget Agent
+
+Planning Agent
+
+Executive Governance Agent
+
+Learning Agent
+
+================================================
+
+Display:
+
+Before State
+
+After State
+
+Impact %
+
+Cost Impact
+
+Citizen Impact
+
+Risk Impact
+
+Confidence
+
+Affected Departments
+
+================================================
+
+PHASE 5
+
+USER EXPERIENCE REDESIGN
+
+UrbanFlow currently feels crowded.
+
+Create a cleaner enterprise-grade experience.
+
+================================================
+
+LEFT SIDEBAR NAVIGATION
+
+Dashboard
+
+Scenario Lab
+
+Digital Twin
+
+Traffic Intelligence
+
+AQI Intelligence
+
+Women Safety
+
+Citizen Feedback
+
+Budget Intelligence
+
+Infrastructure Intelligence
+
+Proposal Evaluation
+
+Sustainability
+
+Climate Resilience
+
+Executive Governance
+
+Monitoring
+
+AI Copilot
+
+Help Center
+
+Settings
+
+================================================
+
+Do NOT display everything on one screen.
+
+Each module should have its own page.
+
+Use:
+
+Collapsible sections
+
+Expandable cards
+
+Drill-down views
+
+Progressive disclosure
+
+================================================
+
+Increase spacing.
+
+Improve typography.
+
+Improve readability.
+
+Reduce clutter.
+
+================================================
+
+PHASE 6
+
+PERFORMANCE OPTIMIZATION
+
+Audit entire platform.
+
+Identify:
+
+Slow renders
+
+Slow APIs
+
+Heavy charts
+
+Heavy maps
+
+Duplicate requests
+
+Unnecessary re-renders
+
+Unused code
+
+================================================
+
+Optimize:
+
+Caching
+
+Memoization
+
+Code splitting
+
+Lazy loading
+
+Query optimization
+
+API optimization
+
+Chart optimization
+
+Map optimization
+
+================================================
+
+Target:
+
+Page load < 2 seconds
+
+Navigation feels instant
+
+Simulation response < 2 seconds
+
+Minimal latency
+
+================================================
+
+PHASE 7
+
+HELP CENTER
+
+Create Help Center in sidebar.
+
+Purpose:
+
+Teach new users what UrbanFlow is.
+
+Teach why UrbanFlow exists.
+
+Teach how UrbanFlow works.
+
+================================================
+
+Include:
+
+Welcome to UrbanFlow
+
+UrbanFlow Vision
+
+Platform Overview
+
+How AI Agents Work
+
+How Scenario Lab Works
+
+How Digital Twin Works
+
+How Proposal Evaluation Works
+
+How Sustainability Works
+
+How Executive Governance Works
+
+FAQ
+
+================================================
+
+Add:
+
+Interactive walkthrough
+
+Guided tour
+
+First-time onboarding
+
+Feature highlights
+
+================================================
+
+PHASE 8
+
+FINAL VALIDATION
+
+Verify:
+
+All directories exist.
+
+All modules exist.
+
+All routes work.
+
+All APIs work.
+
+All logins work.
+
+All simulations work.
+
+All agents work.
+
+No failed fetch requests.
+
+No build failures.
+
+No TypeScript errors.
+
+No deployment blockers.
+
+================================================
+
+FINAL REPORT
+
+Provide:
+
+Directory Audit Report
+
+Login Recovery Report
+
+API Health Report
+
+Scenario Lab Recovery Report
+
+Performance Optimization Report
+
+UX Improvement Report
+
+Help Center Report
+
+Deployment Readiness Report
+
+Competition Readiness Report
+
+Do not mark task complete until every issue above is verified and fixed.
